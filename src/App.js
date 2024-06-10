@@ -11,12 +11,12 @@ const App = () => {
   };
 
   return (
-    <Router>
+    <BrowserRouter basename="/personal-bookshelf">
       <Routes>
         <Route path="/" element={<BookSearchPage onAddToBookshelf={addToBookshelf} />} />
         <Route path="/bookshelf" element={<BookShelfPage />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 };
 
