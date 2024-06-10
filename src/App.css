@@ -1,38 +1,169 @@
-.App {
-  text-align: center;
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper {
+    display: flex;
+    flex-direction: column;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.Wrapper2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.Btn-Div{
+    margin-right: 45px;
 }
 
-.App-link {
-  color: #61dafb;
+.Btn{
+    padding:  8px 18px 8px 18px;
+    border: none;
+    border-radius: 11px;
+    background-color: rgb(24, 192, 24);
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Btn:hover{
+    background-color: rgb(20, 165, 20);
+}
+
+.Wrapper3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+@media (max-width: 776px) {
+    .Wrapper2 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .Btn-Div{
+        margin-right: 0px;
+        margin-top: 8px;
+    }
+    
+    .wrapper {
+        align-items: center;
+    }
+    .Wrapper3 {
+        height: auto;
+    }
+    .book-list {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+.main-text{
+    text-align: center;
+}
+
+
+.bookshelf-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.book-card3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+    width: 170px;
+    border: 1px solid black;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+/* ==============================================Card CSS============================ */
+
+.book-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    width: 170px;
+    border: 1px solid black;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.book-card-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.book-card1{
+    justify-content: start;
+    column-gap: 8px;
+}
+
+.book-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Btn {
+    padding: 8px 18px;
+    border: none;
+    border-radius: 11px;
+    background-color: rgb(24, 192, 24);
+    color: white;
+    cursor: pointer;
+    align-self: center; 
+}
+
+.Btn:hover {
+    background-color: rgb(20, 165, 20);
+}
+
+
+.btn3{
+    text-align: center;
+    background-color: rebeccapurple;
+}
+
+.btn3:hover{
+    background-color: rgb(84, 41, 128);
 }
