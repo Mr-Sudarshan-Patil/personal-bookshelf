@@ -4,6 +4,7 @@ import axios from 'axios';
 import { useState, useEffect } from "react"
 import BookCard from '../components/BookCard';
 import '../App.css';
+import { Link } from 'react-router-dom';
 
 function BookSearchPage({ onAddToBookshelf }) {
     // Input data story in query
@@ -38,7 +39,7 @@ function BookSearchPage({ onAddToBookshelf }) {
           <SearchInput query={query} onChange={setQuery}/>
         </div>
         <div className='Btn-Div'>
-          <a className='Btn' href="/bookshelf">My Bookshelf</a>
+          <Link  to="/bookshelf" className='Btn'>My Bookshelf</Link>
         </div>
       </div>
       <div className='Wrapper3'>

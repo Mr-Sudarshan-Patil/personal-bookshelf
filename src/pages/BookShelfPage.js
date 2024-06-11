@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import '../App.css';
+import { Link } from 'react-router-dom';
 
 function BookShelfPage() {
 
@@ -22,7 +23,7 @@ function BookShelfPage() {
           </div>
         ))}
       </div>
-      <a href="/" className='Btn btn3'>Back to Search</a>
+      <Link to="/" className='Btn btn3'>Back to Search</Link>
     </div>
   )
 }
