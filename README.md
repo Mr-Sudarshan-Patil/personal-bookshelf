@@ -17,14 +17,14 @@ This is a React application that allows users to search for books using the Open
    cd personal-bookshelf
    
 2. **Install dependencies:**
-In the project directory, run the following command to install all necessary dependencies:
-
-npm install
+   In the project directory, run the following command to install all necessary dependencies:
+   ```sh
+   npm install
 
 3. **Run the Application**
-  Once the dependencies are installed, start the development server by running:
-
-  npm start
+   Once the dependencies are installed, start the development server by running:
+   ```sh
+   npm start
 
 ### Project Structure
 src/components: Contains reusable components.
