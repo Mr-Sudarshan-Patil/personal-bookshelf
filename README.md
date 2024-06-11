@@ -27,10 +27,10 @@ This is a React application that allows users to search for books using the Open
    npm start
 
 ### Project Structure
-src/components: Contains reusable components.
-src/pages: Contains the main pages of the application (BookSearchPage and BookShelfPage).
-src/App.js: Main application component that sets up routing.
-src/App.css: Styling for the application.
+**src/components**: Contains reusable components.<br/>
+**src/pages**: Contains the main pages of the application (BookSearchPage and BookShelfPage).<br/>
+**src/App.js**: Main application component that sets up routing.<br/>
+**src/App.css**: Styling for the application.
 
 ### Technologies Used
 React
