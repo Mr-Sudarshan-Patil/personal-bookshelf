@@ -23,7 +23,8 @@ function BookShelfPage() {
           </div>
         ))}
       </div>
-      <Link to="/" className='Btn btn3'>Back to Search</Link>
+      <div className='Back-btn'><Link to="/" className='Btn btn3'>Back to Search</Link></div>
+      
     </div>
   )
 }

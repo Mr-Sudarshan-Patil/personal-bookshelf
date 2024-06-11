@@ -50,28 +50,6 @@ html, body {
     margin-top: 50px;
 }
 
-@media (max-width: 776px) {
-    .Wrapper2 {
-        flex-direction: column;
-        width: 100%;
-    }
-    .Btn-Div{
-        margin-right: 0px;
-        margin-top: 8px;
-    }
-    
-    .wrapper {
-        align-items: center;
-    }
-    .Wrapper3 {
-        height: auto;
-    }
-    .book-list {
-        width: 100%;
-        margin-top: 20px;
-    }
-}
-
 
 
 
@@ -166,4 +144,41 @@ html, body {
 
 .btn3:hover{
     background-color: rgb(84, 41, 128);
+}
+
+
+.Back-btn{
+    margin-top: 8px;
+}
+
+
+
+
+
+
+/* =======================================Media queries================================ */
+
+
+
+@media (max-width: 776px) {
+    .Wrapper2 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .Btn-Div{
+        margin-right: 0px;
+        margin-top: 22px;
+    }
+    
+    .wrapper {
+        align-items: center;
+    }
+    .Wrapper3 {
+        height: auto;
+    }
+    .book-list {
+        width: 100%;
+        margin-top: 20px;
+    }
+ 
 }
